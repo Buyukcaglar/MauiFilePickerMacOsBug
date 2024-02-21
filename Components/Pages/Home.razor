@@ -1,0 +1,34 @@
+﻿@page "/"
+
+<h1>Hello, world! Try to pick a text file under MacOs with MacCatalyst build.</h1>
+
+<br />
+
+<button @onclick="PickTextFileNet">Pick Text File .Net Picker</button>
+
+<br />
+<br />
+
+<button @onclick="PickTextFileNetDefault">Pick Text File .Net Picker Default</button>
+
+<br />
+<br />
+
+<button @onclick="PickTextFileLuke">Pick Text File LukeMauiFilePicker</button>
+
+<br />
+<br />
+
+ @*
+<button @onclick="PickTextFileBrighterTools">Pick Text File BrighterTools.MauiFilePicker</button>
+
+<br />
+<br />
+*@
+<span class="border-bottom">Result will appear below:</span>
+
+<br />
+
+<span>@_result</span>
+
+
